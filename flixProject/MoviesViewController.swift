@@ -49,19 +49,29 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // custom cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as! MovieCell
+        
+        // getting the specific movie from the dictionary
         let movie = movies[indexPath.row]
+        // title of the movie from the object
         let title = movie["title"] as! String
+        // synopsis of movie from object
         let synopsis = movie["overview"] as! String
         
+        // sending title and synopsis to appropriate label
         cell.titleLabel!.text = title
         cell.synopsisLabel.text = synopsis
         
+        // getting base URL
         let baseUrl = "https://image.tmdb.org/t/p/w185"
+        // getting poster url from  from movie object
         let posterPath = movie["poster_path"] as! String
+        // adding base url and poster url
         let posterUrl = URL(string: baseUrl + posterPath)!
         
+        // sending poster image to image view in storyboard
         cell.posterView.af_setImage(withURL: posterUrl)
         
+        // returning custom cell
         return cell
     }
     
