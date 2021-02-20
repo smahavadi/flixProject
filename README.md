@@ -20,6 +20,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 <img src="https://media.giphy.com/media/N4dwN94nvGwWrzQKRi/giphy.gif" width=250><br>
 
+<img src="https://media.giphy.com/media/EdakEIDumJ7O5bbgpj/giphy.gif" width=250><br>
+
 
 ### Notes
 I had trouble mainly with the auto formatting part of the project. The requirements of the project and the video walkthroughs were easy to follow, but when it came toime to add constraints to the image view and labels, I had difficulty figuring out which constraints would make the app do what I wanted it to do. However, after a couple of hours and help from the TAs on slack, I was able to figure out where I was going wrong. I also had some issues with the Git feature, because I kept forgetting to pull before I committed and pushed my work to the remote repository. Although I have previous experience using GitHub, the Xcode software is still a bit confusing to me. Hopefully as the course progresses I will become more accustomed to it.
