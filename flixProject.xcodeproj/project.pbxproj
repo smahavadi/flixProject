@@ -21,6 +21,7 @@
 		E994BA4125DF4932000E4F1C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994BA4025DF4932000E4F1C /* MovieCell.swift */; };
 		E994BA7825E9472F000E4F1C /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994BA7725E9472F000E4F1C /* MovieDetailsViewController.swift */; };
 		E994BA7D25E9564C000E4F1C /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994BA7C25E9564C000E4F1C /* MovieGridViewController.swift */; };
+		E994BA8525E95B19000E4F1C /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E994BA8425E95B19000E4F1C /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		E994BA4025DF4932000E4F1C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		E994BA7725E9472F000E4F1C /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		E994BA7C25E9564C000E4F1C /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		E994BA8425E95B19000E4F1C /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		ED74CD5A16D54454798A2E91 /* Pods-flixProject-flixProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixProject-flixProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-flixProject-flixProjectUITests/Pods-flixProject-flixProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				E994BA4025DF4932000E4F1C /* MovieCell.swift */,
 				E994BA7725E9472F000E4F1C /* MovieDetailsViewController.swift */,
 				E994BA7C25E9564C000E4F1C /* MovieGridViewController.swift */,
+				E994BA8425E95B19000E4F1C /* MovieGridCell.swift */,
 			);
 			path = flixProject;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				E994BA4125DF4932000E4F1C /* MovieCell.swift in Sources */,
 				E905611225DF3A480056E102 /* MoviesViewController.swift in Sources */,
 				E994BA7D25E9564C000E4F1C /* MovieGridViewController.swift in Sources */,
+				E994BA8525E95B19000E4F1C /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
