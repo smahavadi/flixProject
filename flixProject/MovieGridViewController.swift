@@ -44,6 +44,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
 
             self.movies = dataDictionary["results"] as! [ [String:Any] ]
             self.collectionView.reloadData()
+            
            }
         }
         task.resume()
@@ -83,7 +84,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
         // Find selected movie
         let cell = sender as! UICollectionViewCell
         let indexPath = collectionView.indexPath(for: cell)!
-        let movie = movies[indexPath.row]
+        let movie = movies[indexPath.item]
         
         // Pass movie to details view controller
         let detailsViewController = segue.destination as! MovieGridDetailsViewController
